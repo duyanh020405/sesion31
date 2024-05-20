@@ -10,6 +10,7 @@ import Bt5 from './components/Bai5'
 import Bt6 from './components/Bai6'
 import Bt7 from './components/Bai7'
 import Bt8 from './components/Bai8'
+import Bt11_12 from './components/bai11_12'
 export default function App() {
   const [active, setActive] = useState<boolean>(true)
 
@@ -69,6 +70,7 @@ export default function App() {
         <Bt6></Bt6>
         <Bt7></Bt7>
         <Bt8></Bt8>
+        <Bt11_12></Bt11_12>
 
       </div>
     </div>
